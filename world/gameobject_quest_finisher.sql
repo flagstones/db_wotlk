@@ -1,0 +1,245 @@
+-- MySQL Dump
+-- version 5.1.41
+-- 
+-- Host: localhost
+-- Server Version: 6.1
+-- 
+-- --------------------------------------------------------
+
+-- 
+-- Tabellenstruktur für Tabelle `gameobject_quest_finisher`
+-- 
+
+CREATE TABLE `gameobject_quest_finisher` (
+  `id` int(11) unsigned NOT NULL DEFAULT '0',
+  `quest` int(11) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`,`quest`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COMMENT='Quest System';
+
+--
+-- Daten für Tabelle `gameobject_quest_finisher`
+--
+
+LOCK TABLES `gameobject_quest_finisher` WRITE;
+
+INSERT INTO `gameobject_quest_finisher` VALUES ('31', '94');
+INSERT INTO `gameobject_quest_finisher` VALUES ('33', '140');
+INSERT INTO `gameobject_quest_finisher` VALUES ('34', '139');
+INSERT INTO `gameobject_quest_finisher` VALUES ('35', '136');
+INSERT INTO `gameobject_quest_finisher` VALUES ('36', '138');
+INSERT INTO `gameobject_quest_finisher` VALUES ('55', '37');
+INSERT INTO `gameobject_quest_finisher` VALUES ('56', '45');
+INSERT INTO `gameobject_quest_finisher` VALUES ('59', '95');
+INSERT INTO `gameobject_quest_finisher` VALUES ('61', '231');
+INSERT INTO `gameobject_quest_finisher` VALUES ('76', '248');
+INSERT INTO `gameobject_quest_finisher` VALUES ('257', '250');
+INSERT INTO `gameobject_quest_finisher` VALUES ('259', '285');
+INSERT INTO `gameobject_quest_finisher` VALUES ('261', '281');
+INSERT INTO `gameobject_quest_finisher` VALUES ('269', '403');
+INSERT INTO `gameobject_quest_finisher` VALUES ('270', '310');
+INSERT INTO `gameobject_quest_finisher` VALUES ('287', '200');
+INSERT INTO `gameobject_quest_finisher` VALUES ('288', '328');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1557', '410');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1561', '72');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1585', '280');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1586', '431');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1593', '438');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1599', '460');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1609', '465');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1627', '477');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1728', '524');
+INSERT INTO `gameobject_quest_finisher` VALUES ('1767', '553');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2059', '419');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2076', '584');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2076', '585');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2076', '586');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2083', '595');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2289', '619');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2553', '624');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2555', '625');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2556', '626');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2652', '631');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2688', '652');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2701', '642');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2702', '651');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2703', '645');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2734', '321');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2875', '738');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2908', '749');
+INSERT INTO `gameobject_quest_finisher` VALUES ('2933', '779');
+INSERT INTO `gameobject_quest_finisher` VALUES ('3643', '67');
+INSERT INTO `gameobject_quest_finisher` VALUES ('4141', '894');
+INSERT INTO `gameobject_quest_finisher` VALUES ('4141', '900');
+INSERT INTO `gameobject_quest_finisher` VALUES ('4141', '901');
+INSERT INTO `gameobject_quest_finisher` VALUES ('5619', '926');
+INSERT INTO `gameobject_quest_finisher` VALUES ('5620', '926');
+INSERT INTO `gameobject_quest_finisher` VALUES ('7510', '2399');
+INSERT INTO `gameobject_quest_finisher` VALUES ('7923', '941');
+INSERT INTO `gameobject_quest_finisher` VALUES ('10076', '944');
+INSERT INTO `gameobject_quest_finisher` VALUES ('12666', '949');
+INSERT INTO `gameobject_quest_finisher` VALUES ('17182', '983');
+INSERT INTO `gameobject_quest_finisher` VALUES ('17183', '1001');
+INSERT INTO `gameobject_quest_finisher` VALUES ('17184', '1002');
+INSERT INTO `gameobject_quest_finisher` VALUES ('17185', '1003');
+INSERT INTO `gameobject_quest_finisher` VALUES ('19024', '1028');
+INSERT INTO `gameobject_quest_finisher` VALUES ('19599', '1089');
+INSERT INTO `gameobject_quest_finisher` VALUES ('20805', '1190');
+INSERT INTO `gameobject_quest_finisher` VALUES ('24776', '264');
+INSERT INTO `gameobject_quest_finisher` VALUES ('32569', '1393');
+INSERT INTO `gameobject_quest_finisher` VALUES ('35251', '1454');
+INSERT INTO `gameobject_quest_finisher` VALUES ('50961', '1437');
+INSERT INTO `gameobject_quest_finisher` VALUES ('51708', '254');
+INSERT INTO `gameobject_quest_finisher` VALUES ('61934', '1526');
+INSERT INTO `gameobject_quest_finisher` VALUES ('89931', '1714');
+INSERT INTO `gameobject_quest_finisher` VALUES ('112877', '2201');
+INSERT INTO `gameobject_quest_finisher` VALUES ('112888', '461');
+INSERT INTO `gameobject_quest_finisher` VALUES ('112948', '290');
+INSERT INTO `gameobject_quest_finisher` VALUES ('113791', '63');
+INSERT INTO `gameobject_quest_finisher` VALUES ('131474', '2278');
+INSERT INTO `gameobject_quest_finisher` VALUES ('138492', '635');
+INSERT INTO `gameobject_quest_finisher` VALUES ('138492', '656');
+INSERT INTO `gameobject_quest_finisher` VALUES ('141980', '2701');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142127', '2742');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142151', '284');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142179', '2866');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142194', '2882');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142195', '2902');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142343', '2946');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142343', '2954');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142343', '2966');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142487', '2945');
+INSERT INTO `gameobject_quest_finisher` VALUES ('142487', '2951');
+INSERT INTO `gameobject_quest_finisher` VALUES ('144063', '2879');
+INSERT INTO `gameobject_quest_finisher` VALUES ('148498', '3372');
+INSERT INTO `gameobject_quest_finisher` VALUES ('148504', '3913');
+INSERT INTO `gameobject_quest_finisher` VALUES ('148512', '3373');
+INSERT INTO `gameobject_quest_finisher` VALUES ('148836', '3446');
+INSERT INTO `gameobject_quest_finisher` VALUES ('148838', '3447');
+INSERT INTO `gameobject_quest_finisher` VALUES ('149047', '3454');
+INSERT INTO `gameobject_quest_finisher` VALUES ('149502', '3481');
+INSERT INTO `gameobject_quest_finisher` VALUES ('151286', '3505');
+INSERT INTO `gameobject_quest_finisher` VALUES ('152097', '3525');
+INSERT INTO `gameobject_quest_finisher` VALUES ('161504', '3844');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164689', '3802');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164869', '4083');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164885', '4119');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164885', '4447');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164886', '2523');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164886', '3363');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164887', '996');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164887', '998');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164888', '4117');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164888', '4443');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164909', '4125');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164953', '4131');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164954', '4135');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164955', '4381');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164955', '4385');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164956', '4383');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164956', '4384');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164957', '4382');
+INSERT INTO `gameobject_quest_finisher` VALUES ('164957', '4386');
+INSERT INTO `gameobject_quest_finisher` VALUES ('173265', '4449');
+INSERT INTO `gameobject_quest_finisher` VALUES ('173265', '4451');
+INSERT INTO `gameobject_quest_finisher` VALUES ('174848', '4561');
+INSERT INTO `gameobject_quest_finisher` VALUES ('174848', '4661');
+INSERT INTO `gameobject_quest_finisher` VALUES ('175084', '4601');
+INSERT INTO `gameobject_quest_finisher` VALUES ('175085', '4602');
+INSERT INTO `gameobject_quest_finisher` VALUES ('175524', '4812');
+INSERT INTO `gameobject_quest_finisher` VALUES ('175586', '4863');
+INSERT INTO `gameobject_quest_finisher` VALUES ('175587', '4861');
+INSERT INTO `gameobject_quest_finisher` VALUES ('175704', '3367');
+INSERT INTO `gameobject_quest_finisher` VALUES ('175894', '5021');
+INSERT INTO `gameobject_quest_finisher` VALUES ('175926', '5058');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176091', '5084');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176192', '5164');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176317', '5265');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5216');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5218');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5219');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5221');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5222');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5224');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5225');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5227');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5229');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5231');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5233');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176361', '5235');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176392', '5225');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176392', '5235');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176393', '5222');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176393', '5233');
+INSERT INTO `gameobject_quest_finisher` VALUES ('176631', '5463');
+INSERT INTO `gameobject_quest_finisher` VALUES ('177289', '5219');
+INSERT INTO `gameobject_quest_finisher` VALUES ('177289', '5231');
+INSERT INTO `gameobject_quest_finisher` VALUES ('177491', '5902');
+INSERT INTO `gameobject_quest_finisher` VALUES ('177491', '5904');
+INSERT INTO `gameobject_quest_finisher` VALUES ('177544', '5942');
+INSERT INTO `gameobject_quest_finisher` VALUES ('177675', '6024');
+INSERT INTO `gameobject_quest_finisher` VALUES ('177786', '6161');
+INSERT INTO `gameobject_quest_finisher` VALUES ('179485', '1193');
+INSERT INTO `gameobject_quest_finisher` VALUES ('179517', '7877');
+INSERT INTO `gameobject_quest_finisher` VALUES ('179551', '7486');
+INSERT INTO `gameobject_quest_finisher` VALUES ('179880', '7761');
+INSERT INTO `gameobject_quest_finisher` VALUES ('180503', '8307');
+INSERT INTO `gameobject_quest_finisher` VALUES ('180633', '8305');
+INSERT INTO `gameobject_quest_finisher` VALUES ('180642', '8577');
+INSERT INTO `gameobject_quest_finisher` VALUES ('180652', '8597');
+INSERT INTO `gameobject_quest_finisher` VALUES ('181073', '9029');
+INSERT INTO `gameobject_quest_finisher` VALUES ('181150', '9161');
+INSERT INTO `gameobject_quest_finisher` VALUES ('181643', '9476');
+INSERT INTO `gameobject_quest_finisher` VALUES ('181649', '9469');
+INSERT INTO `gameobject_quest_finisher` VALUES ('181698', '9529');
+INSERT INTO `gameobject_quest_finisher` VALUES ('181748', '9565');
+INSERT INTO `gameobject_quest_finisher` VALUES ('181756', '9550');
+INSERT INTO `gameobject_quest_finisher` VALUES ('181758', '9561');
+INSERT INTO `gameobject_quest_finisher` VALUES ('182947', '10094');
+INSERT INTO `gameobject_quest_finisher` VALUES ('183770', '10243');
+INSERT INTO `gameobject_quest_finisher` VALUES ('183877', '10216');
+INSERT INTO `gameobject_quest_finisher` VALUES ('184300', '10316');
+INSERT INTO `gameobject_quest_finisher` VALUES ('184825', '10555');
+INSERT INTO `gameobject_quest_finisher` VALUES ('185126', '10793');
+INSERT INTO `gameobject_quest_finisher` VALUES ('185165', '10819');
+INSERT INTO `gameobject_quest_finisher` VALUES ('185165', '10820');
+INSERT INTO `gameobject_quest_finisher` VALUES ('186585', '11253');
+INSERT INTO `gameobject_quest_finisher` VALUES ('187565', '11605');
+INSERT INTO `gameobject_quest_finisher` VALUES ('187565', '11607');
+INSERT INTO `gameobject_quest_finisher` VALUES ('187565', '11609');
+INSERT INTO `gameobject_quest_finisher` VALUES ('187565', '11610');
+INSERT INTO `gameobject_quest_finisher` VALUES ('188085', '11901');
+INSERT INTO `gameobject_quest_finisher` VALUES ('188365', '12042');
+INSERT INTO `gameobject_quest_finisher` VALUES ('188419', '12030');
+INSERT INTO `gameobject_quest_finisher` VALUES ('188419', '12031');
+INSERT INTO `gameobject_quest_finisher` VALUES ('190535', '12565');
+INSERT INTO `gameobject_quest_finisher` VALUES ('190535', '12567');
+INSERT INTO `gameobject_quest_finisher` VALUES ('190602', '12615');
+INSERT INTO `gameobject_quest_finisher` VALUES ('190602', '12618');
+INSERT INTO `gameobject_quest_finisher` VALUES ('190657', '12655');
+INSERT INTO `gameobject_quest_finisher` VALUES ('190657', '12656');
+INSERT INTO `gameobject_quest_finisher` VALUES ('190768', '12691');
+INSERT INTO `gameobject_quest_finisher` VALUES ('190777', '12581');
+INSERT INTO `gameobject_quest_finisher` VALUES ('191760', '13415');
+INSERT INTO `gameobject_quest_finisher` VALUES ('191760', '13416');
+INSERT INTO `gameobject_quest_finisher` VALUES ('191761', '12889');
+INSERT INTO `gameobject_quest_finisher` VALUES ('191766', '12902');
+INSERT INTO `gameobject_quest_finisher` VALUES ('192060', '12922');
+INSERT INTO `gameobject_quest_finisher` VALUES ('192071', '12981');
+INSERT INTO `gameobject_quest_finisher` VALUES ('192078', '12977');
+INSERT INTO `gameobject_quest_finisher` VALUES ('192078', '12994');
+INSERT INTO `gameobject_quest_finisher` VALUES ('192079', '13003');
+INSERT INTO `gameobject_quest_finisher` VALUES ('192080', '13006');
+INSERT INTO `gameobject_quest_finisher` VALUES ('192524', '13046');
+INSERT INTO `gameobject_quest_finisher` VALUES ('193195', '13263');
+INSERT INTO `gameobject_quest_finisher` VALUES ('193195', '13389');
+INSERT INTO `gameobject_quest_finisher` VALUES ('193400', '13262');
+INSERT INTO `gameobject_quest_finisher` VALUES ('193400', '13388');
+INSERT INTO `gameobject_quest_finisher` VALUES ('194555', '13604');
+INSERT INTO `gameobject_quest_finisher` VALUES ('194555', '13614');
+INSERT INTO `gameobject_quest_finisher` VALUES ('194555', '13622');
+INSERT INTO `gameobject_quest_finisher` VALUES ('194555', '13629');
+INSERT INTO `gameobject_quest_finisher` VALUES ('194555', '13817');
+INSERT INTO `gameobject_quest_finisher` VALUES ('194555', '13818');
+INSERT INTO `gameobject_quest_finisher` VALUES ('201742', '24545');
+
+UNLOCK TABLES;
